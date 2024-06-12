@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95492177-8f53-4384-9f57-a7d02953728f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Logica-de-programacao-python.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/logica_de_programacao.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="95492177-8f53-4384-9f57-a7d02953728f" name="Changes" comment="iniciado o curso de introdução a lógica de programação e algoritimos com python" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,7 +34,8 @@
     "Python.logica_de_programacao.executor": "Run",
     "Python.main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
   <component name="RunManager">
@@ -86,6 +78,15 @@
       <option name="presentableId" value="Default" />
       <updated>1718150013355</updated>
     </task>
+    <task id="LOCAL-00001" summary="iniciado o curso de introdução a lógica de programação e algoritimos com python">
+      <option name="closed" value="true" />
+      <created>1718157362353</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718157362353</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,5 +99,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="iniciado o curso de introdução a lógica de programação e algoritimos com python" />
+    <option name="LAST_COMMIT_MESSAGE" value="iniciado o curso de introdução a lógica de programação e algoritimos com python" />
   </component>
 </project>
