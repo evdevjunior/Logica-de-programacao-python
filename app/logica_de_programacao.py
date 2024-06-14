@@ -11,7 +11,7 @@ print('Disciplina:', disciplina, 'Nota', nota ) # Imprime concatenando Strings e
 
 # --------------------------------- #
 
-# VARIÁVEIS LÓGICAS ( == , <= , >= , != , ! ) #
+# VARIÁVEIS LÓGICAS ( == , <= , >= , != , ! ) # 
 
 a = 1
 b = 3
@@ -57,19 +57,16 @@ logica_programacao = 'Nota da Lógica %.2f' %nota
 print(logica_programacao)
 
 print('Idade: %i' %idade)
-
 print('Qual a matéria? %s' %materia)
 
 # Composição Moderna utilizando {} e .format()#
 
 print('idade {} '.format(idade))
-
 print('Qual a materia? {}'.format(materia))
 
 # Composicão com f-string #
 
 print(f'idade: {idade}')
-
 print(f'Qual a materia? {materia}')
 
 # Fatiamento de Strings de um Indice ate outro Indice ex: [0:6}#
@@ -94,3 +91,55 @@ idade = input('Qual é a sua idade?')
 instituicao = input('Qual a sua instituição?')
 
 print(f'Seja bem vindo: {nome}', f'Voçê é novo com: {idade} de idade', f'Essa instituição {instituicao} é muito boa ')
+
+# --------------------------------- #
+
+#   UTILIZANDO CASTING PARA CONVERTER TIPOS DE DADOS  # por padrão o input retorna uma String, casting converte em float, double, int etc...
+
+nota_1 = float(input("Digite a primeira nota : "))
+nota_2 = float(input("Digite a segunda : "))
+nota_3 = float(input("Digite a terceira : "))
+nota_4 = float(input("Digite a quarta : "))
+
+media = int((nota_1 + nota_2 + nota_3 + nota_4)/4)
+
+print(f"A sua média é {media}, meus parabens!")
+
+#   TESTE DE MESA   # observando o fluxo de dados
+
+X = 1 # x = 1
+Y = 1 # y = 1
+Z = X + Y # z = 2
+
+X = X + 2 # x = 3
+Y = Y - 1 # y = 0
+Z = X + Y # z = 3
+
+print(Z) # 3
+
+# --------------------------------- #
+
+#   CONTROLE DE FLUXO E CONDICIONAIS    # if, else, boolean portas lógicas multiplas condições ( and , or , not , )
+
+# and é ( E ) , or é ( ou ) , not é ( negação )
+
+numero_1 = int(input("Digite o primeiro numero : "))
+numero_2 = int(input("Digite o segundo : "))
+numero_3 = int(input("Digite o terceiro : "))
+numero_4 = int(input("Digite o quarto : "))
+
+if (numero_1 > numero_2 and numero_1 > numero_3 and numero_1 > numero_4):
+    print(f"O primeiro numero {numero_1} é maior.")
+
+elif (numero_2 > numero_3 and numero_2 > numero_4 and numero_2 > numero_1):# elif é o mesmo que else if
+    print(f"O segundo numero {numero_2} é maior.")
+
+elif (numero_3 > numero_1 and numero_3 > numero_2 and numero_3 > numero_4):
+    print(f"O terceiro {numero_3} é maior.")
+
+elif (numero_4 > numero_1 and numero_4 > numero_2 and numero_4 > numero_3):
+    print(f"O quarto {numero_4} é maior.")
+
+else :
+    print("Numero nùmero inválido!")
+
