@@ -240,7 +240,7 @@ print(f"A soma é {soma(10, 10)}.")  # impressão da soma formatado com f-string
 
 # --------------------------------- #
 
-# APLICADO A LÓGIDA APREDIDA NAS AULAS DE "LÓGICA E AUGORITIMOS COM PYTHON  #
+# APLICADO A LÓGIDA APREDIDA NAS AULAS DE "LÓGICA E ALGORITIMOS COM PYTHON  # criado uma tabuada completa até o numero 10
 
 def soma1 ():
     for i in range(1, 11):
