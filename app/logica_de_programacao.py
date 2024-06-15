@@ -170,7 +170,7 @@ while True:
         break
 print("Loop incerrado...")
 
-print("Digite os numeros de 1 até 5 sem digitar o numero 3")
+print("Pode digitar qualquer numero que voçê quiser porem, somente o numero 3 para o loop")
 while True:
     x = int(input(""))
     if (x != 3):
@@ -180,4 +180,101 @@ while True:
         print("Voçê digitou o 3 encerrando o laço!")
         break
 
-# aula 4 estrutura for e repetição aninhadas
+# --------------------------------- #
+
+#   ESTRUTURA DE REPETIÇÃO FOR (PARA)   #
+
+for i in range(10): # iterando de 1 a 9
+    print(i)
+
+for i in range(1,20,2): # iterando de 1 até 19 no intervalo de 2 em 2
+    print(i)
+
+for i in range(20, 0, -1): # print a variável i dcrementando de 1 em 1 até 1
+    print(i)
+
+materia = "Lógica"
+for i in range(0, len(materia)): # iteração de caracter a caracter, varrendo a string e imprimindo
+    print(materia[i])
+
+for i in range(0, len(materia)):
+    print(materia[i], end="") # utilizando end="", ignora-se a quebra de linha
+
+print("Tabuada")
+
+for tabuada in range(1, 11):  # usando o for in range para criar a tabuada
+    print(f"Tabuada do número: {tabuada}")
+    for i in range(1, 11):
+        print(f"{tabuada} x {i} = {i * tabuada}")
+
+# --------------------------------- #
+
+#   FUNÇÕES parâmetros, escopo e retorno    #
+
+def realce ():
+    print('|' * 2, '-' * 10, '|' * 2)
+
+realce()
+print("     MENU")
+realce()
+
+def media ():   # função media retorna a media entre x, y e z.
+    x = 10
+    y = 20
+    z = 30
+    calculo = (x + y + z)/3
+    return calculo
+
+print("")
+
+print(media())
+
+print("")
+realce()
+print("")
+def soma (num_1, num_2):    # função soma com passagem de parametros
+    x = num_1 + num_2
+    return x
+
+print(f"A soma é {soma(10, 10)}.")  # impressão da soma formatado com f-string
+
+# --------------------------------- #
+
+# APLICADO A LÓGIDA APREDIDA NAS AULAS DE "LÓGICA E AUGORITIMOS COM PYTHON  #
+
+def soma1 ():
+    for i in range(1, 11):
+        print("")
+        print(f"Soma do número: {i}")
+        print("")
+        for x in range(1, 11):
+            print(f"{i} + {x} = {i + x}")
+
+def subtracao ():
+    for i in range(1, 11):
+        print("")
+        print(f"Subtração do número: {i}")
+        print("")
+        for x in range(1, 11):
+            print(f"{i} - {x} = {i - x}")
+def multiplica ():
+    for i in range(1, 11):
+        print("")
+        print(f"Multiplicação do número: {i}")
+        print("")
+        for x in range(1, 11):
+            print(f"{i} x {x} = {i * x}")
+
+def divisao ():
+    for i in range(1, 11):
+        print("")
+        print(f"Divisão do número: {i}")
+        print("")
+        for x in range(1, 11):
+            res = i / x
+            print(i, "/", x, " = %.2f" % res)
+
+print(soma1())
+print(subtracao())
+print(multiplica())
+print(divisao())
