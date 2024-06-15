@@ -102,8 +102,10 @@ nota_3 = float(input("Digite a terceira : "))
 nota_4 = float(input("Digite a quarta : "))
 
 media = int((nota_1 + nota_2 + nota_3 + nota_4)/4)
-
-print(f"A sua média é {media}, meus parabens!")
+if (media >= 7):
+    print(f"A sua média é {media}, meus parabens!")
+elif (media < 7):
+    print(f"Precisa melhorar essa nota! {media}")
 
 #   TESTE DE MESA   # observando o fluxo de dados
 
@@ -119,7 +121,7 @@ print(Z) # 3
 
 # --------------------------------- #
 
-#   CONTROLE DE FLUXO E CONDICIONAIS    # if, else, boolean portas lógicas multiplas condições ( and , or , not , )
+#   CONTROLE DE FLUXO E CONDICIONAIS    # if, else, elif.  boolean portas lógicas multiplas condições ( and , or , not , )
 
 # and é ( E ) , or é ( ou ) , not é ( negação )
 
@@ -143,3 +145,39 @@ elif (numero_4 > numero_1 and numero_4 > numero_2 and numero_4 > numero_3):
 else :
     print("Numero nùmero inválido!")
 
+# --------------------------------- #
+
+#   ESTRUTURAS DE REPETIÇÃO     #   while (enquanto verdadeiro) 
+
+X = 1
+while (X <= 10): # enquanto verdadeiro executa o loop
+    print(X)
+    X += 1
+
+inicial = int(input("Digite o inicio da iteração: "))
+final = int(input("Digite o final do intervalo: "))
+count = inicial
+
+while (count <= final):
+    if (count % 2 == 0): # loop de iteração dos numeros pares entre os intervalos inicial, final
+        print(count)
+    count += 1
+
+print("Voçê está no loop até digitar a palavra | sair |")
+while True:
+    x = input("")
+    if (x == "sair"): # encerrando o loop infinito com break ao satisfazer a condição do if
+        break
+print("Loop incerrado...")
+
+print("Digite os numeros de 1 até 5 sem digitar o numero 3")
+while True:
+    x = int(input(""))
+    if (x != 3):
+        print("Digite o 3 para sair")
+        continue
+    if (x == 3):
+        print("Voçê digitou o 3 encerrando o laço!")
+        break
+
+# aula 4 estrutura for e repetição aninhadas
