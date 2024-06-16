@@ -4,7 +4,7 @@
 
 ## Matéria da faculdade de ADS em Lógica de programação e Algoritimos com Python.
 
-### ▪ Primeiramente aprendi Dados e as Variáveis.
+### ▪ Dados e as Variáveis.
 
 ### ▪ Comandos de entrada e saída de Dados.
 
@@ -13,3 +13,13 @@
 ### ▪ Estruturas de repetição
 
 ### ▪ Funções 
+
+### ▪ Tuplas
+
+### ▪ Listas
+
+### ▪ Dicionrios
+
+### ▪ Métodos de manipulação com Strings
+
+![Alt text](/assets/data-strutures.jpg?raw=true "Imagem do Primeiro Exercicio")
