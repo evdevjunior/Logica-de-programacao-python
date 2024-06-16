@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95492177-8f53-4384-9f57-a7d02953728f" name="Changes" comment="estudo sobre as estruturas de dados como tuplas, listas, dicionarios e metodos para manipulação de strings">
+    <list default="true" id="95492177-8f53-4384-9f57-a7d02953728f" name="Changes" comment="adicionado imagem de estrutura de dados Python">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/logica_de_programacao.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/logica_de_programacao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/estrutura-dados-python.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718551485901</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="estudo sobre as estruturas de dados como tuplas, listas, dicionarios e metodos para manipulação de strings">
+      <option name="closed" value="true" />
+      <created>1718551542386</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718551542386</updated>
+    </task>
+    <task id="LOCAL-00008" summary="adicionado imagem de estrutura de dados Python">
+      <option name="closed" value="true" />
+      <created>1718552070786</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718552070786</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +172,7 @@
     <MESSAGE value="iniciado o curso de introdução a lógica de programação e algoritimos com python" />
     <MESSAGE value="aplicado o aprendizado das aulas de lógica e algoritimos com python" />
     <MESSAGE value="estudo sobre as estruturas de dados como tuplas, listas, dicionarios e metodos para manipulação de strings" />
-    <option name="LAST_COMMIT_MESSAGE" value="estudo sobre as estruturas de dados como tuplas, listas, dicionarios e metodos para manipulação de strings" />
+    <MESSAGE value="adicionado imagem de estrutura de dados Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado imagem de estrutura de dados Python" />
   </component>
 </project>
